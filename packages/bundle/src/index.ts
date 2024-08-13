@@ -1,11 +1,11 @@
-import { DateTime } from '@easepick/datetime';
-import { easepick, create } from '@easepick/core';
-import { LockPlugin } from '@easepick/lock-plugin';
-import { PresetPlugin } from '@easepick/preset-plugin';
-import { RangePlugin } from '@easepick/range-plugin';
-import { TimePlugin } from '@easepick/time-plugin';
-import { KbdPlugin } from '@easepick/kbd-plugin';
-import { AmpPlugin } from '@easepick/amp-plugin';
+import { DateTime } from '@nextmillenniummedia/easepick-repacked-datetime';
+import { easepick, create } from '@nextmillenniummedia/easepick-repacked-core';
+import { LockPlugin } from '@nextmillenniummedia/easepick-repacked-lock-plugin';
+import { PresetPlugin } from '@nextmillenniummedia/easepick-repacked-preset-plugin';
+import { RangePlugin } from '@nextmillenniummedia/easepick-repacked-range-plugin';
+import { TimePlugin } from '@nextmillenniummedia/easepick-repacked-time-plugin';
+import { KbdPlugin } from '@nextmillenniummedia/easepick-repacked-kbd-plugin';
+import { AmpPlugin } from '@nextmillenniummedia/easepick-repacked-amp-plugin';
 import './index.scss';
 
 export {

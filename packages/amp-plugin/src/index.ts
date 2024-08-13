@@ -1,7 +1,7 @@
-import { BasePlugin, IEventDetail, IPlugin } from '@easepick/base-plugin';
-import { LockPlugin } from '@easepick/lock-plugin';
-import { RangePlugin } from '@easepick/range-plugin';
-import { DateTime } from '@easepick/datetime';
+import { BasePlugin, IEventDetail, IPlugin } from '@nextmillenniummedia/easepick-repacked-base-plugin';
+import { LockPlugin } from '@nextmillenniummedia/easepick-repacked-lock-plugin';
+import { RangePlugin } from '@nextmillenniummedia/easepick-repacked-range-plugin';
+import { DateTime } from '@nextmillenniummedia/easepick-repacked-datetime';
 import { IAmpPlugin } from './interface';
 import './index.scss';
 

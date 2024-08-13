@@ -1,7 +1,7 @@
 {
   "name": "@nextmillenniummedia/easepick-repacked-base-plugin",
   "description": "Base plugin for easepick.",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "type": "module",

@@ -1,4 +1,4 @@
-import { DateTime } from '@easepick/datetime';
+import { DateTime } from '@nextmillenniummedia/easepick-repacked-datetime';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface IBaseConfig {}

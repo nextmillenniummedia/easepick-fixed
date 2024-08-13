@@ -77,7 +77,7 @@ export default [
         }
       }),
       resolve({
-        dedupe: ['@easepick/base-plugin'],
+        dedupe: ['@nextmillenniummedia/easepick-repacked-base-plugin'],
         resolveOnly: [/^@easepick\/.*$/]
       }),
       typescript({

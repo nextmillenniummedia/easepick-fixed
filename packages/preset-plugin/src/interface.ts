@@ -1,5 +1,5 @@
-import { DateTime } from '@easepick/datetime';
-import { IBaseConfig } from '@easepick/base-plugin';
+import { DateTime } from '@nextmillenniummedia/easepick-repacked-datetime';
+import { IBaseConfig } from '@nextmillenniummedia/easepick-repacked-base-plugin';
 
 export interface IPresetConfig extends IBaseConfig {
   customPreset?: Record<string, unknown>;
@@ -7,7 +7,7 @@ export interface IPresetConfig extends IBaseConfig {
   position?: string;
 }
 
-declare module '@easepick/core' {
+declare module '@nextmillenniummedia/easepick-repacked-core' {
   interface Core {
     setStartDate(date: Date | string | number): void;
     setEndDate(date: Date | string | number): void;
@@ -16,7 +16,7 @@ declare module '@easepick/core' {
     getEndDate(): DateTime;
   }
 }
-declare module '@easepick/core/dist/types' {
+declare module '@nextmillenniummedia/easepick-repacked-core/dist/types' {
   interface IPickerConfig {
     PresetPlugin?: IPresetConfig;
   }

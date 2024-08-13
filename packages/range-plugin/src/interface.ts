@@ -1,5 +1,5 @@
-import { DateTime } from '@easepick/datetime';
-import { IBaseConfig } from '@easepick/base-plugin';
+import { DateTime } from '@nextmillenniummedia/easepick-repacked-datetime';
+import { IBaseConfig } from '@nextmillenniummedia/easepick-repacked-base-plugin';
 
 export interface IRangeConfig extends IBaseConfig {
   elementEnd?: HTMLElement | string;
@@ -21,7 +21,7 @@ export interface IRangeConfig extends IBaseConfig {
   documentClick?: boolean | (() => void);
 }
 
-declare module '@easepick/core' {
+declare module '@nextmillenniummedia/easepick-repacked-core' {
   interface Core {
     setStartDate(date: Date | string | number): void;
     setEndDate(date: Date | string | number): void;
@@ -31,7 +31,7 @@ declare module '@easepick/core' {
   }
 }
 
-declare module '@easepick/core/dist/types' {
+declare module '@nextmillenniummedia/easepick-repacked-core/dist/types' {
   interface IPickerConfig {
     RangePlugin?: IRangeConfig;
   }

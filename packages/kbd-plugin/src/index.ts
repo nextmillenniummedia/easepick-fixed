@@ -1,5 +1,5 @@
-import { BasePlugin, IEventDetail, IPlugin } from '@easepick/base-plugin';
-import { RangePlugin } from '@easepick/range-plugin';
+import { BasePlugin, IEventDetail, IPlugin } from '@nextmillenniummedia/easepick-repacked-base-plugin';
+import { RangePlugin } from '@nextmillenniummedia/easepick-repacked-range-plugin';
 import { IKbdPlugin } from './interface';
 import './index.scss';
 

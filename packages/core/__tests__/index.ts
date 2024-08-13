@@ -1,5 +1,5 @@
-import { DateTime } from '@easepick/datetime';
-import { RangePlugin } from '@easepick/range-plugin';
+import { DateTime } from '@nextmillenniummedia/easepick-repacked-datetime';
+import { RangePlugin } from '@nextmillenniummedia/easepick-repacked-range-plugin';
 import * as easepick from '../src/index';
 const pkg = require('../package.json');
 

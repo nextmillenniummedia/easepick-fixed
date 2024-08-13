@@ -1,4 +1,4 @@
-import { Core } from '@easepick/core';
+import { Core } from '@nextmillenniummedia/easepick-repacked-core';
 import { IBaseConfig, IPlugin, IEventDetail } from './interface';
 
 export class BasePlugin {

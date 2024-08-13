@@ -7,11 +7,6 @@
     "moduleResolution": "node",
     "emitDeclarationOnly": true,
     "composite": true,
-    "paths": {
-      "@easepick/*": [
-        "./packages/*/src/index.ts"
-      ]
-    }
   },
   "exclude": [
     "node_modules",
