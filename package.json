@@ -1,6 +1,6 @@
 {
-  "name": "easepick",
-  "version": "1.2.1",
+  "name": "@nextmillenniummedia/easepick-fixed",
+  "version": "1.2.2",
   "private": true,
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.4",
@@ -21,8 +21,9 @@
     "ts-loader": "^9.2.3",
     "typescript": "^4.6.2"
   },
-  "engines": {
-    "npm": "^7.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextmillenniummedia/easepick-fixed.git"
   },
   "scripts": {
     "dev": "rollup --config --environment BUILD:development",
@@ -30,6 +31,7 @@
     "clean:build": "rm -rf packages/*/dist",
     "test": "jest"
   },
+  "type": "module",
   "workspaces": [
     "packages/*"
   ],
