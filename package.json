@@ -1,5 +1,5 @@
 {
-  "name": "@nextmillenniummedia/easepick-fixed",
+  "name": "@nextmillenniummedia/easepick-repacked",
   "version": "1.2.2",
   "private": true,
   "devDependencies": {
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nextmillenniummedia/easepick-fixed.git"
+    "url": "git+https://github.com/nextmillenniummedia/easepick-repacked.git"
   },
   "scripts": {
     "dev": "rollup --config --environment BUILD:development",

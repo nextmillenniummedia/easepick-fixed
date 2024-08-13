@@ -1,12 +1,12 @@
 {
-  "name": "@easepick/amp-plugin",
+  "name": "@nextmillenniummedia/easepick-repacked-amp-plugin",
   "description": "Plugin for easepick.",
   "version": "1.2.2",
   "main": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "dependencies": {
-    "@easepick/base-plugin": "^1.1.0"
+    "@nextmillenniummedia/easepick-repacked-base-plugin": "^1.1.0"
   },
   "author": {
     "name": "Rinat G.",
@@ -15,8 +15,11 @@
   "license": "GPL-2.0-or-later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/easepick/easepick.git",
+    "url": "git+https://github.com/nextmillenniummedia/easepick-repacked.git",
     "directory": "packages/amp-plugin"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "homepage": "https://easepick.com",
   "bugs": {
